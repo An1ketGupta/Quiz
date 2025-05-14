@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F8F8FF;
+}
+
+#quizbody{
+    margin-top: 125px;
+    margin-left: 350px;
+    height: 500px;
+    width: 800px;
+    box-shadow: inset;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+    
+.question{
+    padding-top: 75px;
+    margin-left: 60px;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: "IM Fell English", serif;
+}
+
+.options{
+    width: 20px;
+    height: 25px;
+    scale: 1.5;
+    margin: 20px;
+}
+
+.submit-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: forestgreen;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#final_score{
+    padding-top: 75px;
+    margin-left: 60px;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: "IM Fell English", serif;
+}
+
+#retry_button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color:darkred;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}

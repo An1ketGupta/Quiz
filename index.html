@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Quiz - App
+        </title>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="./script.js"></script>
+        <div id="quizbody">
+                <div class="question" id="question1">
+                    1. What is the capital of Canada?
+                    <div>
+                    <input class="options" type="checkbox" id="q11" onclick="checkother(this.id)">Ottawa
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q12" onclick="checkother(this.id)">Vancouver
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q13" onclick="checkother(this.id)">Toronto
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q14" onclick="checkother(this.id)">Montreal
+                    </div>
+                    <center><button class="submit-button" onclick="button_on(1,1)">Submit</button></center>
+                </div>
+            <div class="question" id="question2" style="display: none;">
+                    2. Which planet is known as the Red Planet?
+                    <div>
+                    <input class="options" type="checkbox" id="q21" onclick="checkother(this.id)">Earth
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q22" onclick="checkother(this.id)">Mars
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q23" onclick="checkother(this.id)">Jupiter
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q24" onclick="checkother(this.id)">Venus
+                    </div>
+                    <center><button class="submit-button" onclick="button_on(2,2)">Submit</button></center>
+                </div>
+            <div class="question" id="question3"style="display: none;">
+                    3. Who wrote the play Romeo and Juliet?
+                    <div>
+                    <input class="options" type="checkbox" id="q31" onclick="checkother(this.id)">Charles Dickens
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q32" onclick="checkother(this.id)">William Shakespeare
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q33" onclick="checkother(this.id)">George Orwell
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q34" onclick="checkother(this.id)">Jane Austen
+                    </div>
+                    <center><button class="submit-button" onclick="button_on(2,3)">Submit</button></center>
+                </div>
+            <div class="question" id="question4"style="display: none;">
+                    4. What is the largest ocean on Earth?
+                    <div>
+                    <input class="options" type="checkbox" id="q41" onclick="checkother(this.id)">Atlantic
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q42" onclick="checkother(this.id)">Indian
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q43" onclick="checkother(this.id)">Pacific
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q44" onclick="checkother(this.id)">Artic
+                    </div>
+                    <center><button class="submit-button" onclick="button_on(3,4)">Submit</button></center>
+                </div>
+            <div class="question" id="question5"style="display: none;">
+                    5. In which year did the World War II end?
+                    <div>
+                    <input class="options" type="checkbox" id="q51" onclick="checkother(this.id)">1942
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q52" onclick="checkother(this.id)">1947
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q53" onclick="checkother(this.id)">1943
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q54" onclick="checkother(this.id)">1945
+                    </div>
+                    <center><button class="submit-button" onclick="button_on(4,5)">Submit</button></center>
+                </div>
+            <div class="question" id="question6" style="display: none;">
+                    6. Which gas do plants absorb from the atmosphere?
+                    <div>
+                    <input class="options" type="checkbox" id="q61" onclick="checkother(this.id)">Carbon Dioxide
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q62" onclick="checkother(this.id)">Oxygen
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q63" onclick="checkother(this.id)">Nitrogen
+                    </div>
+                    <div>
+                    <input class="options" type="checkbox" id="q64" onclick="checkother(this.id)">Argon
+                    </div>
+                    <center><button class="submit-button" onclick="finished(1,6)">Submit</button></center>
+            </div>
+            <div id="final_score"></div>
+        </div>
+    </body>
+</html>
